@@ -1,0 +1,67 @@
+.descriptionbox {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #bbb;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Same as ProductDisplay */
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    background: #fbfbfb;
+    color: #555;
+  }
+  
+  .descriptionbox-nav-box:hover,
+  .descriptionbox-nav-box.active {
+    color: #ff4141;
+    border-bottom: 2px solid #ff4141;
+  }
+  
+  .descriptionbox-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+  }
+  
+  @media(max-width:1280px){
+    .descriptionbox{
+      margin: 60px;
+    }
+  }
+
+  @media(max-width:800px){
+    .descriptionbox{
+      margin: 60px 20px;
+    }
+    .descriptionbox-description{
+      font-size: 12px;
+    }
+  }

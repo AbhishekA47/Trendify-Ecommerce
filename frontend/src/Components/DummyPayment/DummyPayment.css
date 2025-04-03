@@ -1,0 +1,131 @@
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form form {
+    width: 100%;
+  }
+  
+  .payment-form div {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .payment-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  .payment-form input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .payment-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .payment-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-form button:hover {
+    background-color: #218838;
+  }
+  
+  .payment-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .payment-form .payment-summary {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .payment-form {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .payment-form h2 {
+      font-size: 20px;
+    }
+  
+    .payment-form input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .payment-form button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 50px) {
+    .payment-form {
+      padding: 10px;
+      max-width: 100%;
+    }
+  
+    .payment-form h2 {
+      font-size: 18px;
+    }
+  
+    .payment-form input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .payment-form button {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  

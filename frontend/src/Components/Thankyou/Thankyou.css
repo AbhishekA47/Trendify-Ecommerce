@@ -1,0 +1,51 @@
+.thank-you-page {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    padding: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .thank-you-page h1 {
+    font-size: 36px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .thank-you-page h3 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .delivery-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .delivery-details h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .delivery-details div {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .delivery-details div strong {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .delivery-details div:last-child {
+    margin-bottom: 0;
+  }
+  
