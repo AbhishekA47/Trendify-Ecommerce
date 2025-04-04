@@ -57,14 +57,6 @@ const Item = (props) => {
         {isInStock ? 'In Stock' : 'Out of Stock'}
       </div>
 
-      {/* Add to cart button */}
-      {/* <button
-        className={`item-add-to-cart ${!isInStock ? 'disabled' : ''}`}
-        disabled={!isInStock}
-        onClick={() => isInStock && props.addToCart(props.id)}
-      >
-        Add to Cart
-      </button> */}
     </div>
   );
 };
